@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6", //tells compiler which ECMA script version to use when generating JavaScript
+    "outDir": "./build/", //tells where the compiled code should be placed
+    "module": "commonjs", //tells compiler we want to use CommonJS modules (so use require not import)
+    "strict": true, //shorthand for strict rules, like noImplicitAny
+    "noUnusedLocals": true, 
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "esModuleInterop": true //allows interoperability between CommonJS and ES Modules
+  }
+}
